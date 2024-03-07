@@ -1,12 +1,16 @@
-//event--->numbers--->Last item +1-->update the List
+// //event--->numbers--->Last item +1-->update the List
 
-import 'package:flutter/material.dart';
+// import 'dart:developer';
 
-class NumbeListProvider extends ChangeNotifier {
-  int count = 0;
+// import 'package:flutter/material.dart';
 
-  void addNumbers() {
-    count++;
-    notifyListeners();
-  }
-}
+// class NumbeListProvider extends ChangeNotifier {
+//   bool isicon = true;
+
+//   changeValue() {
+//     isicon = !isicon;
+
+
+//     notifyListeners();
+//   }
+// }
